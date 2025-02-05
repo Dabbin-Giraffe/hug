@@ -16,7 +16,7 @@ const Landing = () => {
                     <ul>
                         <p>To find me </p>
                         <li>You need to move your cursor around</li>
-                        <li>If the screen gets bluer, you are getting farther. But if the color transitions to more pinkier color you are getting close</li>
+                        <li>If the screen gets bluer, you are getting farther. But if the color transitions to more reddish color you are getting close</li>
                         <li>If you cursor changes shape into a pointer, it means you have found me. Please click on it to rescue me</li>
                     </ul>
                     <button onClick={()=>navigate("/search")}>HONEYYY!! I AM COMINGGG</button>

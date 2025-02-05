@@ -1,0 +1,21 @@
+.search-wrapper{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.search-wrapper img{
+    width: 5rem;
+    cursor: pointer;
+    opacity: 0;
+    transition: 3s ease;
+}
+
+.search-wrapper img.clicked{
+    opacity: 1;
+    width: 10vw;
+    border: 0.8rem solid #D63447;
+    background-color: #D63447;
+    padding: 2rem;
+    border-radius: 13rem;
+}

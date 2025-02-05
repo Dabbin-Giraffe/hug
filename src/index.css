@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Roboto Mono";
+    src: url("../src/assets/Roboto_Mono/RobotoMono-VariableFont_wght.ttf");
+}
+
+*::before,
+*::after,
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --clr-blue: #0B3D91;
+    --clr-purple: #2C1A47;
+    --clr-cyan: #5BCCD9;
+    --clr-grey: #A9B4C2;
+    --clr-pink: #B08EAD;
+
+    --clr-peach: #FFB085;
+    --clr-blush-pink: #FF6F91;
+    --clr-orange: #FF8C42;
+    --clr-red: #D63447;
+    --clr-yellow: #FFD166;
+
+    --fw-400: 400;
+    --fw-600: 600;
+    --fw-800: 800;
+    --fw-200: 200;
+
+    --fs-small: 14px;
+    --fs-med: 20px;
+    --fs-large: 35px;
+    --fs-extra-large: 60px;
+
+    --ff-regular: "Roboto Mono"
+}
+
+body {
+    font-family: var(--ff-regular);
+}

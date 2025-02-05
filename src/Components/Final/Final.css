@@ -1,0 +1,21 @@
+.final-wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: var(--clr-peach);
+    background-image: url("../../assets/asfalt-dark.png");
+    flex-direction: column;
+    padding: 5rem;
+}
+
+.final-wrapper p{
+font-size: var(--fs-large);
+color: var(--clr-red);
+}
+
+.final-wrapper p:last-child{
+    align-self: flex-end;
+}

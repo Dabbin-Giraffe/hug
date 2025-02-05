@@ -1,0 +1,63 @@
+.landing-wrapper {
+    background-color: var(--clr-purple);
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../assets/snowflake.png"), url("../../assets/snow.png");
+    background-size: 5rem;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    box-sizing: border-box;
+}
+
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: var(--clr-grey);
+    padding: 3rem;
+    font-size: var(--fs-med);
+    border-radius: 1.5rem;
+    gap: 2rem;
+    color: var(--clr-blue);
+    animation: iceGlow 1s infinite alternate;
+}
+
+@keyframes iceGlow {
+    0% {
+        box-shadow: 0 0 30px rgba(173, 216, 230, 0.8), 
+                    0 0 45px rgba(135, 206, 250, 0.6), 
+                    0 0 60px rgba(70, 130, 180, 0.4);
+    }
+    50% {
+        box-shadow: 0 0 44px rgba(176, 224, 230, 0.9), 
+                    0 0 50px rgba(100, 149, 237, 0.7), 
+                    0 0 65px rgba(25, 25, 112, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 17px rgba(173, 216, 230, 0.8), 
+                    0 0 40px rgba(135, 206, 250, 0.6), 
+                    0 0 55px rgba(70, 130, 180, 0.4);
+    }
+}
+
+.landing-container button{
+    align-self: center;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    background-color: var(--clr-blue);
+    color: var(--clr-cyan);
+    font-size: var(--fs-med);
+    transition: 0.3s ease;
+}
+
+.landing-container button:hover{
+    animation: iceGlow 0.7s infinite alternate;
+    transform: scale(1.1);
+}
